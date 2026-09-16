@@ -2,7 +2,7 @@
 language = "Python"
 version = 3
 pi_approx = 3.14159
-computation_valid = 2 > 1
+computation_valid = (2 > 1)
 
 print(f"Language: {language}")
 print(f"Version: {version}")
