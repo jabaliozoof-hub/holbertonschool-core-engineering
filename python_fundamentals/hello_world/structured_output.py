@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-language = "paython"
+language = "Python"
 version = 3
 pi_approx = 3.14159
 computation_valid = 2 > 1
 
 print(f"Language: {language}")
-print(f"version:{version}")
-print(f"pi approx: {pi_approx:.2f}")
-print(f"computation valid: {computation_valid}"
-      )
+print(f"Version: {version}")
+print(f"Pi approx: {pi_approx:.2f}")
+print(f"Computation valid: {computation_valid}")
