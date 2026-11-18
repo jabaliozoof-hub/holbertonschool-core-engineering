@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1f22;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.chat {
+    width: 100%;
+    max-width: 480px;
+}
+
+#status {
+    font-size: 14px;
+    color: #aaa;
+}
+
+#messages {
+    height: 320px;
+    overflow-y: auto;
+    background: #2b2d31;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    padding: 6px 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+.sent {
+    background: #3b6ea5;
+    margin-left: auto;
+}
+
+.received {
+    background: #444;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #3b6ea5;
+    color: #fff;
+    cursor: pointer;
+}
